@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="filter" />
+        <module name="FilterLoginCheck" />
+        <module name="request" />
+        <module name="CookieAndSession" />
+        <module name="response" />
+        <module name="jsp" />
+        <module name="listener" />
+        <module name="javaBean" />
+        <module name="jdbcStusy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="filter" target="1.7" />
+      <module name="filtertest" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
